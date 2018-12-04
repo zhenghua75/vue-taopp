@@ -2,14 +2,14 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import VueResource from 'vue-resource'
 import VueLazyload from 'vue-lazyload'
-import Movie from '~@/components/movie/Movie'
-	import Hot from '~@/components/movie/Hot'
-	import Begin from '~@/components/movie/Begin'
+import Movie from '@/components/movie/Movie'
+	import Hot from '@/components/movie/Hot'
+	import Begin from '@/components/movie/Begin'
 
-import Cinema from '~@/components/cinema/Cinema'
-import User from '~@/components/user/User'
-import Buy from '~@/components/buy/Buy'
-  import MovieCard from '~@/components/user/MovieCard'
+import Cinema from '@/components/cinema/Cinema'
+import User from '@/components/user/User'
+import Buy from '@/components/buy/Buy'
+  import MovieCard from '@/components/user/MovieCard'
 
 Vue.use(Router)
 Vue.use(VueResource)
